@@ -1,0 +1,51 @@
+name: asl_project_app
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: 6.3.2
+  camera: ^0.11.2
+  image: ^4.5.4
+  lottie: ^3.3.2
+  flutter_launcher_icons: ^0.14.4
+  shared_preferences: ^2.5.3
+  flutter_localization: ^0.3.3
+  tflite_flutter: ^0.12.1
+  permission_handler: ^12.0.1
+  provider: ^6.1.5+1
+  google_mlkit_pose_detection: ^0.14.0
+  google_mlkit_face_detection: ^0.13.1
+  video_player: ^2.10.0
+  ffmpeg_kit_flutter_new: ^4.1.0
+  path_provider: ^2.1.5
+  typed_data: ^1.4.0
+  url_launcher: ^6.3.0
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  image_picker: ^1.1.0
+
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/logo.jpg" # Path to your high-res logo
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/best_model_quantized.tflite
